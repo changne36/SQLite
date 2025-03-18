@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/edtname"
+        android:layout_width="wrap_content"
+        android:layout_height="57dp"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:hint="Tên"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/edtphone"
+        android:layout_width="wrap_content"
+        android:layout_height="57dp"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:hint="Số điện thoại"
+        android:inputType="phone" />
+
+    <LinearLayout
+        android:layout_width="239dp"
+        android:layout_height="77dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnthem"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Thêm" />
+
+        <Button
+            android:id="@+id/btnsua"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Sửa " />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="239dp"
+        android:layout_height="77dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnxoa"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Xóa" />
+
+        <Button
+            android:id="@+id/btnhienthi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Hiển thị" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtht"
+        android:layout_width="208dp"
+        android:layout_height="56dp"
+        android:textSize="20sp" />
+</LinearLayout>
